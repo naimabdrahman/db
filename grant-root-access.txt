@@ -1,1 +1,4 @@
+## to be run in mysql shell
+## access by root from host 'node1.nar.test'
 
+CREATE USER 'root'@'node1.nar.test' IDENTIFIED BY 'password'; GRANT ALL PRIVILEGES ON *.* TO 'root'@'node1.nar.test'; flush privileges;
