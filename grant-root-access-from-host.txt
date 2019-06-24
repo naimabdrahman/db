@@ -1,0 +1,4 @@
+## to be run in mysql shell
+
+CREATE USER 'root'@'ip_address' IDENTIFIED BY 'some_pass';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip_address';
