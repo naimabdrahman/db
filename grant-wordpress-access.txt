@@ -1,2 +1,4 @@
+## to be run in mysql shell
+## access by wordpress from host 'node1.nar.test'
 
 create database wordpress;grant all privileges on wordpress.* to wordpress@'node1.nar.test' identified by 'password';flush privileges;
