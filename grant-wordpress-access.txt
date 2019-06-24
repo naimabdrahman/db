@@ -1,1 +1,2 @@
 
+create database wordpress;grant all privileges on wordpress.* to wordpress@'node1.nar.test' identified by 'password';flush privileges;
