@@ -1,7 +1,3 @@
-## Automating `mysql_secure_installation` ##
-## https://bertvv.github.io/notes-to-self/2015/11/16/automating-mysql_secure_installation/ ##
-
-
 #! /bin/sh
 #
 # Author: Bert Van Vreckem <bert.vanvreckem@gmail.com>
@@ -73,3 +69,7 @@ mysql --user=root <<_EOF_
   DELETE FROM mysql.db WHERE Db='test' OR Db='test\\_%';
   FLUSH PRIVILEGES;
 _EOF_
+
+
+## Automating `mysql_secure_installation` ##
+## https://bertvv.github.io/notes-to-self/2015/11/16/automating-mysql_secure_installation/ ##
