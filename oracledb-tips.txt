@@ -1,0 +1,24 @@
+## login to db shell
+
+oracle@pg:~$ sqlplus / as sysdba
+
+SQL*Plus: Release 11.2.0.2.0 Production on Mon Nov 4 04:16:37 2019
+
+Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+
+
+
+
+## update password
+
+SQL> alter user sys identified by "P@ssw0rd";
+
+User altered.
+
+SQL> alter user system identified by "P@ssw0rd";
+
+User altered.
