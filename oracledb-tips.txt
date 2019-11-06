@@ -15,10 +15,10 @@ Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
 
 ## update password
 
-SQL> alter user sys identified by "P@ssw0rd";
+SQL> alter user sys identified by "password";
 
 User altered.
 
-SQL> alter user system identified by "P@ssw0rd";
+SQL> alter user system identified by "password";
 
 User altered.
