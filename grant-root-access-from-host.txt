@@ -1,5 +1,10 @@
 ## to be run in mysql shell
 
+## from spesific IP
 CREATE USER 'root'@'ip_address' IDENTIFIED BY 'some_pass';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip_address';
 flush privileges;
+
+
+## grant root access from any IP 
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password';  flush privileges;
