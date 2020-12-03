@@ -1,5 +1,12 @@
 https://www.sitepoint.com/getting-started-sqlite3-basic-commands/
 
+
+
+.show
+.headers ON.
+.mode column.
+
+
 sqlite3 lalala.db
 sqlite> .mode csv lalala
 sqlite> .import lalala.csv lalala
