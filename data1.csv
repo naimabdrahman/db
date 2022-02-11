@@ -1,0 +1,4 @@
+Name,Car,Plate,Balance,Allowed
+"John Doe",Car owner,ABC123,$88968.00,"image1.png, image2.png"
+"Jane Doe",Car owner,DEF456,$80778.00,
+"Foo Bar",Car owner,JKL789,$80778.00,
