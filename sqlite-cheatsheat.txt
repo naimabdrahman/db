@@ -1,12 +1,17 @@
 https://www.sitepoint.com/getting-started-sqlite3-basic-commands/
 
 
-
+## display
 .show
 .headers ON.
 .mode column.
 
-
+## import 
 sqlite3 lalala.db
 sqlite> .mode csv lalala
 sqlite> .import lalala.csv lalala
+
+
+## query
+## not case sensitive
+select * from data1 where Name="john" COLLATE NOCASE; 
