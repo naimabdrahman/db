@@ -15,3 +15,5 @@ sqlite> .import lalala.csv lalala
 ## query
 ## not case sensitive
 select * from data1 where Name="john" COLLATE NOCASE; 
+## wildcard 
+select * from data1 where Name like 'ohn';
