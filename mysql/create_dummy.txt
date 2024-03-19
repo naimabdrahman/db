@@ -1,0 +1,25 @@
+create database db_dummy1;
+
+use db_dummy1;
+
+
+CREATE TABLE dummy_table1 (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT
+);
+
+
+INSERT INTO dummy_table1 (name, age) VALUES
+('John Doe', 30),
+('Jane Smith', 25),
+('Michael Johnson', 40),
+('Emily Brown', 35),
+('David Lee', 28),
+('Sarah Wilson', 33),
+('Chris Evans', 45),
+('Amanda White', 29),
+('Robert Martinez', 38),
+('Jennifer Taylor', 42);
+
+select * from dummy_table1;
